@@ -33,6 +33,22 @@ public class PayoutItem {
         this.alternateNotificationMethod = alternateNotificationMethod;
         return this;
     }
+	
+    /**
+     * Metadata for accepting additional information from merchants to Venmo.
+     */	
+    @SerializedName("application_context")
+    private ApplicationContext applicationContext;
+
+    public ApplicationContext applicationContext() {
+        return applicationContext;
+    }
+
+    public PayoutItem applicationContext(ApplicationContext applicationContext) {
+        this.applicationContext = applicationContext;
+        return this;
+    }
+	
 
     /**
      * REQUIRED
