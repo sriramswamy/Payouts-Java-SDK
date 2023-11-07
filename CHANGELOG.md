@@ -1,3 +1,7 @@
+### 1.1.2 (2023-11-07)
+
+* Added support for passing metadata for Venmo transactions using application_context 
+
 ### 1.1.1 (2021-09-21)
 
 * Updated PayPal HTTP package version from 1.0.2 -> 1.0.3
